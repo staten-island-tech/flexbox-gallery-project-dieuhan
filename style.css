@@ -1,0 +1,40 @@
+body,
+html,
+*{
+    font-size: 10px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 1rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80vw;
+    background-color: rgb(184, 179, 237);
+    
+}
+.card{
+    height: 50vh;
+    margin: 2rem 0;
+    width: 28%;
+    background-color: rgba(65,65,65,0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-title{
+    font-size: 2.2rem;
+    margin-top: 2rem;
+}
+
+.guts-img{
+    width: 100%;
+}
+
+.guts{
+    font-size: 1.2rem;
+}
