@@ -7,7 +7,11 @@ html,
     font-size: 10px;
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding-left: 6;
+    padding-right: 6;
+    
+   
+
 }
 
 .container{
@@ -15,27 +19,28 @@ html,
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 80vw;
-    background-color: rgb(209, 209, 214);
-    
+    width: 80vw;   
 }
+
 .card{
     height: 50vh;
-    margin: 2rem 0;
-    width: 28%;
-    background-color: rgba(191, 116, 245, 0.265);
+   margin: 2rem 0;
+    width: 26%;
+    background-color: rgba(105, 101, 109, 0.265);
     display: flex;
     flex-direction: column;
-   align-items:normal
-   
-    box-shadow: 10px 5px 5px rgb(167, 228, 226);
+    align-items: center;
+    box-shadow: 7px 10px rgb(101, 164, 135);
 }
+
 .card-title{
     font-size: 2.2rem;
-    margin-top: 2rem;
+    align-items: center;
 }
 
 .image{
     width: 100%;
+   
+    
 }
 
