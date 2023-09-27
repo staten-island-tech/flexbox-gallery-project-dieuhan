@@ -31,11 +31,13 @@ html,
     flex-direction: column;
     align-items: center;
     box-shadow: 7px 10px rgb(101, 164, 135);
-    transition: all 0.35ms;
+    transition: all 0.4ms;
 }
 
 .card:hover{
-    transform: scale(1.02);
+  
+    transform: translate(16px, 11px) scale(1.029);
+    background-color: rgb(198, 198, 198);
 }
 
 .card-title{
